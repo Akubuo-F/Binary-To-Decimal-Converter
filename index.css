@@ -1,0 +1,45 @@
+.conversion-widget {
+    /* Centering the widget */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Dimension */
+    height: 100vh;
+    /* Colors */
+    background-color: beige;
+}
+
+.conversion-widget button {
+    /* Colors */
+    background-color: rgb(33, 94, 226);
+    color: white;
+    /* Borders */
+    border-radius: 5px;
+    border: 2px solid black;
+    /* Padding */
+    padding: 10px;
+}
+
+.conversion-widget input {
+    /* Borders */
+    border: 1.5px solid black;
+    border-radius: 2px;
+    /* Padding */
+    padding: 10px;
+}
+
+.conversion-widget p {
+    /* Dimension */
+    width: 100%;
+    align-self: stretch;
+    text-align: center;
+    /* Colors */
+    background-color: darkslategray;
+    color: white;
+    /* Padding */
+    padding: 20px;
+    /* Font */
+    font-size: 20px;
+    font-weight: bold;
+}
